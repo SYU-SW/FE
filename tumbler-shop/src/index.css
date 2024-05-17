@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.logo {
+  margin-bottom: 50px; /* 로고 이미지와 카카오 로그인 버튼 사이의 여백 */
+}
+
+.kakao-login {
+  cursor: pointer;
+}
