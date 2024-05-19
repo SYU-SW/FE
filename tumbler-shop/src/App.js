@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'; // ensure you have an App.css or adjust the path accordingly
-import signInImage from './logo.png'; // "Sign in to tumbler" 이미지
-import kakaoLoginImage from './kakaoLogin.png'; // "카카오 로그인" 이미지
+import signInImage from './assets/logo.png'; // "Sign in to tumbler" 이미지
+import kakaoLoginImage from './assets/kakaoLogin.png'; // "카카오 로그인" 이미지
 
 function App() {
   return (
