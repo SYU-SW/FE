@@ -1,6 +1,6 @@
-// src/pages/Telephone.jsx
+
 import React, { useState } from 'react';
-import './Telephone.css'; // Ensure the CSS file exists or adjust the path accordingly
+import './Telephone.css';
 
 const Telephone = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
