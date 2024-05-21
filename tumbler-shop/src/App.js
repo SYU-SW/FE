@@ -4,6 +4,7 @@ import signInImage from './assets/logo.png';
 import kakaoLoginImage from './assets/kakaoLogin.png';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Telephone from './pages/Telephone';
+import Address from './pages/Address';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/telephone" element={<Telephone />} />
+        <Route path="/address" element={<Address />} />
       </Routes>
     </Router>
   );
