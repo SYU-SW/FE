@@ -5,6 +5,7 @@ import StanleyImg from '../assets/stanley.png';
 import CorkcicleImg from '../assets/corkcicle.png';
 import StanleyMugImg from '../assets/stanleymug.png';
 import BannerImg from '../assets/banner.png';
+import NavigationBar from '../components/NavigationBar'; // 확장자를 제거합니다.
 
 function Home() {
   return (
@@ -13,7 +14,6 @@ function Home() {
         <div className="nav-bar">
           <div className="menu-icon">≡</div>
           <div className="brand">tumbler</div>
-          <div className="profile-icon">⚫</div>
         </div>
       </header>
       <main>
@@ -39,11 +39,12 @@ function Home() {
           </div>
           <div className="product-card">
             <img src={StanleyMugImg} alt="Stanley Mug" className="product-img" />
-            <div className="product-name">Stanley</div>
+            <div className="product-name">Stanley Mug</div>
             <button className="product-button">자세히 보기</button>
           </div>
         </div>
       </main>
+      <NavigationBar />
     </div>
   );
 }

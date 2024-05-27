@@ -5,11 +5,11 @@ import kakaoLoginImage from './assets/kakaoLogin.png';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Telephone from './pages/Telephone';
 import Address from './pages/Address';
-import Homepage from './pages/Home';
+import Home from './pages/Home'; 
 import Profile from './pages/Profile';
 import ProductDetail from './pages/ProductDetail';
 
-function Home() {
+function SignIn() {
   return (
     <div className="App">
       <img src={signInImage} alt="Sign in to tumbler" className="logo" />
@@ -22,12 +22,12 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<SignIn />} />
         <Route path="/telephone" element={<Telephone />} />
         <Route path="/address" element={<Address />} />
-        <Route path="/homepage" element={<Homepage />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/productdetail" element={<ProductDetail />} />
+        <Route path="/productDetail" element={<ProductDetail />} />
       </Routes>
     </Router>
   );

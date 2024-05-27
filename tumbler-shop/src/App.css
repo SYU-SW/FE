@@ -44,6 +44,8 @@
   justify-content: center;
   height: 100vh;
   background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -52,7 +54,8 @@ h1 {
 }
 
 .input-box {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 40px;
   font-size: 18px;
   padding: 10px;
@@ -63,7 +66,8 @@ h1 {
 }
 
 .submit-button {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 40px;
   font-size: 18px;
   color: #ffffff;
@@ -75,4 +79,59 @@ h1 {
 
 .submit-button:hover {
   background-color: #333333;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+
+  .submit-button {
+    width: 100%;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(6px + 2vmin);
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .input-box {
+    font-size: 16px;
+  }
+
+  .submit-button {
+    font-size: 16px;
+  }
+
+  .latest-text {
+    font-size: 16px;
+  }
 }

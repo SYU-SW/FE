@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Address.css';
+import '../App.css';
 
 const Address = () => {
   const [zipcode, setZipcode] = useState('');
