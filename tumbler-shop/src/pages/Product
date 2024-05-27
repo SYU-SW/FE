@@ -1,0 +1,105 @@
+.product-detail {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-icon, .user-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-container {
+    display: flex;
+    padding: 20px;
+}
+
+.product-image img {
+    width: 200px;
+    height: auto;
+}
+
+.product-info {
+    margin-left: 20px;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-volume, .product-stock, .product-price {
+    margin: 5px 0;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buy-button, .cart-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-button {
+    background: #000;
+    color: #fff;
+}
+
+.cart-button {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.product-description {
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 2px solid #000;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    background: #fff;
+}
+
+.footer-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
