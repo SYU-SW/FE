@@ -1,21 +1,20 @@
 import React from 'react';
 import './Home.css';
+import '../App.css';
 import WyldGearImg from '../assets/wyldgear.png';
 import StanleyImg from '../assets/stanley.png';
 import CorkcicleImg from '../assets/corkcicle.png';
 import StanleyMugImg from '../assets/stanleymug.png';
 import BannerImg from '../assets/banner.png';
-import NavigationBar from '../components/NavigationBar'; // 확장자를 제거합니다.
+import NavigationBar from '../components/NavigationBar'; 
 
 function Home() {
   return (
     <div className="App">
-      <header className="App-header">
         <div className="nav-bar">
           <div className="menu-icon">≡</div>
           <div className="brand">tumbler</div>
         </div>
-      </header>
       <main>
         <div className="latest-section">
           <img src={BannerImg} alt="This season's latest" className="latest-img" />
