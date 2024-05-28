@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import '../App.css';
+import '../Fonts.css';
 import WyldGearImg from '../assets/wyldgear.png';
 import StanleyImg from '../assets/stanley.png';
 import CorkcicleImg from '../assets/corkcicle.png';
@@ -18,7 +19,6 @@ function Home() {
       <main>
         <div className="latest-section">
           <img src={BannerImg} alt="This season's latest" className="latest-img" />
-          <div className="latest-text">This season’s latest</div>
         </div>
         <div className="product-grid">
           <div className="product-card">
