@@ -1,0 +1,47 @@
+
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.tumbler-img {
+  height: 29px; 
+  width: 82px;
+}
+
+.menu-icon, .profile-icon {
+  font-size: 1.5rem;
+}
+
+.brand img {
+  height: 40px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.search-input:focus {
+  outline: none;
+  border-bottom: 1px solid #333;
+}
+
+.search-close {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+
+

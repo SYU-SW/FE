@@ -24,11 +24,11 @@ h1 {
   height: 40px;
   font-size: 18px;
   padding: 10px;
-  padding-right: 120px; /* Add padding to the right to avoid overlap with button */
+  padding-right: 120px; 
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #e0e0e0;
-  box-sizing: border-box; /* Ensure padding is included in width */
+  box-sizing: border-box; 
 }
 
 .find-zipcode-button {

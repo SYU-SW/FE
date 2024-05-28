@@ -8,6 +8,7 @@ import Address from './pages/Address';
 import Home from './pages/Home'; 
 import Profile from './pages/Profile';
 import ProductDetail from './pages/ProductDetail';
+import Find from './pages/Find';
 
 function SignIn() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/productDetail" element={<ProductDetail />} />
+        <Route path="/Find" element={<Find />} />
       </Routes>
     </Router>
   );
