@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import signInImage from './assets/logo.png';
 import kakaoLoginImage from './assets/kakaoLogin.png';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Telephone from './pages/Telephone';
 import Address from './pages/Address';
-import Home from './pages/Home'; 
+import Home from './pages/Home';
 import Profile from './pages/Profile';
 import ProductDetail from './pages/ProductDetail';
 import Find from './pages/Find';
@@ -21,17 +21,16 @@ function SignIn() {
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<SignIn />} />
-        <Route path="/telephone" element={<Telephone />} />
-        <Route path="/address" element={<Address />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/productDetail" element={<ProductDetail />} />
-        <Route path="/Find" element={<Find />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<SignIn />} />
+      <Route path="/telephone" element={<Telephone />} />
+      <Route path="/address" element={<Address />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/productDetail" element={<ProductDetail />} />
+      <Route path="/productDetail/:productId" element={<ProductDetail />} />
+      <Route path="/find" element={<Find />} />
+    </Routes>
   );
 }
 
