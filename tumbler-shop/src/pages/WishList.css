@@ -1,0 +1,107 @@
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-icon, .profile-icon {
+  font-size: 1.5rem;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product-list {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem 0;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-img {
+  width: 80px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.product-desc, .product-stock {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.product-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.product-button:hover {
+  background-color: #333;
+}
+
+.product-line {
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 0.5rem;
+}
+
+.cart-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background-color: #333;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+}

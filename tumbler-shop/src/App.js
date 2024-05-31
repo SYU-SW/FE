@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Profile from './pages/Profile';
 import ProductDetail from './pages/ProductDetail';
 import Find from './pages/Find';
+import WishList from './pages/WishList';
 
 function SignIn() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path="/productDetail" element={<ProductDetail />} />
       <Route path="/productDetail/:productId" element={<ProductDetail />} />
       <Route path="/find" element={<Find />} />
+      <Route path="/wishList" element={<WishList />}/>
     </Routes>
   );
 }

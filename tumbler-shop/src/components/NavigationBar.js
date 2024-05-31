@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavigationBar.css';
 import { FaHome, FaSearch, FaHeart, FaShoppingBasket } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
   return (
@@ -14,6 +15,7 @@ const NavigationBar = () => {
       <div className="nav-item">
         <FaHeart />
         <span className="badge">2</span>
+        <Link to="/WishList"></Link>
       </div>
       <div className="nav-item">
         <FaShoppingBasket />
