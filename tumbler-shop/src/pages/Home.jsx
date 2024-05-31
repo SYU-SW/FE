@@ -9,6 +9,7 @@ import BannerImg from '../assets/banner.png';
 import tumbler from '../assets/tumbler.png';
 import ProductLine from '../assets/productline.png';
 import ProductDetail from './ProductDetail';
+import Icon from '../assets/Icon.png';
 import NavigationBar from '../components/NavigationBar';
 import { Link } from 'react-router-dom';
 
@@ -24,6 +25,9 @@ function Home() {
       <main>
         <div className="latest-section">
           <img src={BannerImg} alt="This season's latest" className="latest-img" />
+        </div>
+        <div className="Icon">
+          <img src={Icon} alt="Icon" className="Icon" />
         </div>
         <div className="product-grid">
           <div className="product-card">
