@@ -1,5 +1,6 @@
 import React from 'react';
 import './WishList.css';
+import NavigationBar from '../components/NavigationBar';
 import WyldGearImg from '../assets/wyldgear.png';
 import StanleyImg from '../assets/stanley.png';
 import ProfileIcon from '../assets/profile-icon.png';
@@ -7,13 +8,7 @@ import ProfileIcon from '../assets/profile-icon.png';
 function App() {
   return (
     <div className="app">
-      <div className="nav-bar">
-        <div className="menu-icon">≡</div>
-        <div className="brand">tumbler</div>
-        <div className="profile-icon">
-          <img src={ProfileIcon} alt="Profile Icon" className='profile-icon' />
-        </div>
-      </div>
+      <NavigationBar />
       <main className="product-list">
         <div className="product-item">
           <img src={WyldGearImg} alt="Wyld Gear" className="product-img" />
@@ -37,12 +32,6 @@ function App() {
         </div>
       </main>
       <button className="cart-button">장바구니에 추가</button>
-      <footer className="footer">
-        <div className="footer-icon">🏠</div>
-        <div className="footer-icon">🔍</div>
-        <div className="footer-icon">❤️2</div>
-        <div className="footer-icon">🛒2</div>
-      </footer>
     </div>
   );
 }
