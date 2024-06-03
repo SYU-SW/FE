@@ -10,7 +10,7 @@ import Profile from './pages/Profile';
 import ProductDetail from './pages/ProductDetail';
 import Find from './pages/Find';
 import WishList from './pages/WishList';
-import CartPage from './pages/CartPage'; // Import CartPage
+import CartPage from './pages/CartPage'; 
 
 function SignIn() {
   return (
@@ -33,7 +33,7 @@ function App() {
       <Route path="/productDetail/:productId" element={<ProductDetail />} />
       <Route path="/find" element={<Find />} />
       <Route path="/wishList" element={<WishList />}/>
-      <Route path="/cart" element={<CartPage />} /> {/* Add route for CartPage */}
+      <Route path="/cart" element={<CartPage />} /> 
     </Routes>
   );
 }
