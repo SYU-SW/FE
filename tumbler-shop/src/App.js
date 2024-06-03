@@ -1,8 +1,8 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import signInImage from './assets/logo.png';
 import kakaoLoginImage from './assets/kakaoLogin.png';
-import { Routes, Route } from 'react-router-dom';
 import Telephone from './pages/Telephone';
 import Address from './pages/Address';
 import Home from './pages/Home';
@@ -10,6 +10,7 @@ import Profile from './pages/Profile';
 import ProductDetail from './pages/ProductDetail';
 import Find from './pages/Find';
 import WishList from './pages/WishList';
+import CartPage from './pages/CartPage'; // Import CartPage
 
 function SignIn() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route path="/productDetail/:productId" element={<ProductDetail />} />
       <Route path="/find" element={<Find />} />
       <Route path="/wishList" element={<WishList />}/>
+      <Route path="/cart" element={<CartPage />} /> {/* Add route for CartPage */}
     </Routes>
   );
 }
